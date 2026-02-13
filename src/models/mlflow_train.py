@@ -80,5 +80,5 @@ def train_lasso_model(df):
         return pipeline, test_rmse
 
 if __name__ == "__main__":
-    df = pd.read_csv("../data/train.csv")
+    df = pd.read_csv("data/train.csv")
     model, rmse = train_lasso_model(df)
