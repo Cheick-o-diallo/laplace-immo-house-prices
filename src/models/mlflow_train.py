@@ -78,12 +78,6 @@ def train_lasso_model(df):
         print(f"   Résidus - Moy: {np.mean(residuals):.6f}, Med: {np.median(residuals):.6f}, Std: {np.std(residuals):.6f}")
         
         return pipeline, test_rmse
-
-from pathlib import Path
-import pandas as pd
-# ──── Chemins  ────
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = PROJECT_ROOT / "src" / "data"
 if __name__ == "__main__":
-    df = pd.read_csv("DATA_DIR/train.csv")
+    df = pd.read_csv('../data/train.csv')
     model, rmse = train_lasso_model(df)
