@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/cheic/OneDrive/Documents/DIT_MASTER/COURS/laplace-immo-house-prices/src/models/mlruns/0/models/m-add15e2c5a4140d88adba026d8114edd/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-add15e2c5a4140d88adba026d8114edd
+model_size_bytes: 2635
+model_uuid: m-add15e2c5a4140d88adba026d8114edd
+prompts: null
+run_id: f70ede8484584036aa22150c2baf3bb2
+utc_time_created: '2026-02-13 09:37:17.562107'
