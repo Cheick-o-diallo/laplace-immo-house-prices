@@ -11,8 +11,6 @@
 | Résidus Médiane | 0.0022 |
 | Résidus Écart-type | 0.1221 |
 
-![Metrics](https://via.placeholder.com/800x200/4CAF50/FFFFFF?text=Lasso+Champion+RMSE%3A+0.1219)
-
 ## 🚀 Installation rapide
 
 ```bash
@@ -32,10 +30,10 @@ python src/mlflow_train_lasso.py
 pytest tests/ --cov=src/
 ```
 ## 👥 Équipe Menbres
-cheick O Diallo
-Dodzi Ahnert
-Issouf Bamba
-Abdoulaye Dioro Cissé
+cheick O Diallo,
+Dodzi Ahnert,
+Issouf Bamba,
+Abdoulaye Dioro Cissé.
 
 ## 📄 Licence
 Propriété Laplace Immo © 2026. Usage interne uniquement.
