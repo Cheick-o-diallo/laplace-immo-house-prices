@@ -26,17 +26,16 @@ bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db --host 0.0.0.0 --port 5000
 📱 Ouvre http://localhost:5000 pour voir tous les runs, comparer modèles et télécharger les meilleurs.
 2. Entraîner le modèle champion
-bash
 python src/mlflow_train_lasso.py
 ✅ Résultat : Run "Lasso_Champion" créé avec RMSE 0.1219.
 3. Test unitaire
 pytest tests/ --cov=src/
-
-👥 Équipe Menbres
+```
+## 👥 Équipe Menbres
 cheick O Diallo
 Dodzi Ahnert
 Issouf Bamba
 Abdoulaye Dioro Cissé
 
-📄 Licence
+## 📄 Licence
 Propriété Laplace Immo © 2026. Usage interne uniquement.
