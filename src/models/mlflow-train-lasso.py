@@ -72,7 +72,7 @@ def train_lasso_model(df):
 
         # Nettoyage & abs
         feature_importance['importance'] = pd.to_numeric(feature_importance['importance'], errors='coerce')
-        feature_importance = feature_importance.dropna(subset=['importance'])  # enlève les non-numériques
+        feature_importance = feature_importance.dropna(subset=['importance'])  
         feature_importance['importance'] = feature_importance['importance'].abs()
         feature_importance = feature_importance.nlargest(10, 'importance')
         
